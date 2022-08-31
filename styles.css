@@ -204,6 +204,18 @@ footer .footer-card {
     cursor: pointer;
 }
 
+.footer-card-container:hover {
+    transform: scale(0.80);
+    transition: transform 600ms;
+    background-color: #2F67B2;
+}
+
+.footer-card-container:hover .img {
+    transform: translateY(0) scale(1.3);
+    opacity: 1;
+    transition: transform 400ms;
+}
+
 .footer-card-container:not(:hover) .img {
     opacity: 0.5;
     transition: transform 1200ms;
